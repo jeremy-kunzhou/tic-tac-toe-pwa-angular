@@ -66,6 +66,29 @@
           "hash": "17887879302670483844"
         },
         {
+          "file": "arc/app/board/board.component.css",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "arc/app/board/board.component.html",
+          "hash": "10039313236318047764"
+        },
+        {
+          "file": "arc/app/board/board.component.spec.ts",
+          "hash": "4411926531767789339",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "arc/app/board/board.component.ts",
+          "hash": "14508986720716624486",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
           "file": "nx.json",
           "hash": "17406392984604804013"
         },
@@ -129,7 +152,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "6880513722212066549"
+          "hash": "609583385738121838"
         },
         {
           "file": "src/app/app.component.scss",
@@ -144,7 +167,7 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "3922334806140696004",
+          "hash": "15289456491394969864",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -173,6 +196,20 @@
           "hash": "12397496131277534773",
           "deps": [
             "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/square/square.component.spec.ts",
+          "hash": "8904505716504164979",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/square/square.component.ts",
+          "hash": "13059989935910074111",
+          "deps": [
+            "npm:@angular/core"
           ]
         },
         {

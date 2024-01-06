@@ -10930,7 +10930,7 @@
     "tic-tac-toe-pwa-angular": [
       {
         "source": "tic-tac-toe-pwa-angular",
-        "target": "npm:@angular/animations",
+        "target": "npm:@angular/core",
         "type": "static"
       },
       {
@@ -10940,12 +10940,12 @@
       },
       {
         "source": "tic-tac-toe-pwa-angular",
-        "target": "npm:@angular/compiler",
+        "target": "npm:@angular/animations",
         "type": "static"
       },
       {
         "source": "tic-tac-toe-pwa-angular",
-        "target": "npm:@angular/core",
+        "target": "npm:@angular/compiler",
         "type": "static"
       },
       {
