@@ -143,11 +143,12 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "18406182196822460479",
+          "hash": "16682283550957051371",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
-            "npm:@angular/router"
+            "npm:@angular/router",
+            "npm:@angular/platform-browser"
           ]
         },
         {
@@ -177,7 +178,7 @@
         },
         {
           "file": "src/app/board/board.component.css",
-          "hash": "5792173599058124069"
+          "hash": "6231735141859650972"
         },
         {
           "file": "src/app/board/board.component.html",
@@ -208,7 +209,7 @@
         },
         {
           "file": "src/app/square/square.component.ts",
-          "hash": "1801691088656176899",
+          "hash": "9662970291078246016",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -276,6 +277,14 @@
         {
           "file": "src/manifest.webmanifest",
           "hash": "10045012517954098990"
+        },
+        {
+          "file": "src/robots.txt",
+          "hash": "7634164768171030648"
+        },
+        {
+          "file": "src/sitemap.xml",
+          "hash": "13542424179381278911"
         },
         {
           "file": "src/styles.scss",
