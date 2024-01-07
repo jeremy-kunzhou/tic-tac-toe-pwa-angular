@@ -12,7 +12,9 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/platform-server": "^17.0.0",
+    "@angular/pwa": "^17.0.9",
     "@angular/router": "^17.0.0",
+    "@angular/service-worker": "^17.0.0",
     "@angular/ssr": "^17.0.9",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
@@ -56,16 +58,20 @@
           "hash": "17887879302670483844"
         },
         {
+          "file": "ngsw-config.json",
+          "hash": "15102878750620947178"
+        },
+        {
           "file": "nx.json",
           "hash": "17406392984604804013"
         },
         {
           "file": "package-lock.json",
-          "hash": "17268829201881609643"
+          "hash": "1432821947159900441"
         },
         {
           "file": "package.json",
-          "hash": "17483020484949734948",
+          "hash": "10226776649410222703",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/cdk",
@@ -77,6 +83,7 @@
             "npm:@angular/platform-browser",
             "npm:@angular/platform-browser-dynamic",
             "npm:@angular/platform-server",
+            "npm:@angular/pwa",
             "npm:@angular/router",
             "npm:@angular/ssr",
             "npm:express",
@@ -106,7 +113,7 @@
         },
         {
           "file": "project.json",
-          "hash": "12660042985598802931"
+          "hash": "15819594493500651347"
         },
         {
           "file": "server.ts",
@@ -121,7 +128,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "757629468825559037"
+          "hash": "7359457459557873311"
         },
         {
           "file": "src/app/app.component.scss",
@@ -136,12 +143,11 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "14420443168078275482",
+          "hash": "18406182196822460479",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/material"
+            "npm:@angular/router"
           ]
         },
         {
@@ -154,20 +160,12 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "9914684919960579397",
+          "hash": "5091614699081436907",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "src/app/app.module.ts",
-          "hash": "7190765365591218957",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/material"
+            "npm:@angular/platform-browser",
+            "npm:@angular/service-worker"
           ]
         },
         {
@@ -183,7 +181,7 @@
         },
         {
           "file": "src/app/board/board.component.html",
-          "hash": "10212012880399589039"
+          "hash": "5778853388529452064"
         },
         {
           "file": "src/app/board/board.component.spec.ts",
@@ -194,10 +192,11 @@
         },
         {
           "file": "src/app/board/board.component.ts",
-          "hash": "3093556541970083300",
+          "hash": "10613343836794592515",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/common"
+            "npm:@angular/common",
+            "npm:@angular/material"
           ]
         },
         {
@@ -209,9 +208,11 @@
         },
         {
           "file": "src/app/square/square.component.ts",
-          "hash": "1984331584239124317",
+          "hash": "1801691088656176899",
           "deps": [
-            "npm:@angular/core"
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
           ]
         },
         {
@@ -219,12 +220,44 @@
           "hash": "3244421341483603138"
         },
         {
+          "file": "src/assets/icons/icon-128x128.png",
+          "hash": "16119513566521364320"
+        },
+        {
+          "file": "src/assets/icons/icon-144x144.png",
+          "hash": "7918264055681161054"
+        },
+        {
+          "file": "src/assets/icons/icon-152x152.png",
+          "hash": "15801439294603939434"
+        },
+        {
+          "file": "src/assets/icons/icon-192x192.png",
+          "hash": "5426725225393538606"
+        },
+        {
+          "file": "src/assets/icons/icon-384x384.png",
+          "hash": "14349113523743396697"
+        },
+        {
+          "file": "src/assets/icons/icon-512x512.png",
+          "hash": "15496412176428542718"
+        },
+        {
+          "file": "src/assets/icons/icon-72x72.png",
+          "hash": "8211841038932698272"
+        },
+        {
+          "file": "src/assets/icons/icon-96x96.png",
+          "hash": "17857169027528193372"
+        },
+        {
           "file": "src/favicon.ico",
           "hash": "3988961587069885523"
         },
         {
           "file": "src/index.html",
-          "hash": "17933820048215297531"
+          "hash": "1844085597086959837"
         },
         {
           "file": "src/main.server.ts",
@@ -239,6 +272,10 @@
           "deps": [
             "npm:@angular/platform-browser"
           ]
+        },
+        {
+          "file": "src/manifest.webmanifest",
+          "hash": "10045012517954098990"
         },
         {
           "file": "src/styles.scss",

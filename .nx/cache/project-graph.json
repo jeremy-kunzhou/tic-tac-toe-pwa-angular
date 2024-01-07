@@ -42,7 +42,8 @@
               "inlineStyleLanguage": "scss",
               "assets": [
                 "src/favicon.ico",
-                "src/assets"
+                "src/assets",
+                "src/manifest.webmanifest"
               ],
               "styles": [
                 "@angular/material/prebuilt-themes/indigo-pink.css",
@@ -69,7 +70,8 @@
                     "maximumError": "4kb"
                   }
                 ],
-                "outputHashing": "all"
+                "outputHashing": "all",
+                "serviceWorker": "ngsw-config.json"
               },
               "development": {
                 "optimization": false,
@@ -102,7 +104,8 @@
               "inlineStyleLanguage": "scss",
               "assets": [
                 "src/favicon.ico",
-                "src/assets"
+                "src/assets",
+                "src/manifest.webmanifest"
               ],
               "styles": [
                 "@angular/material/prebuilt-themes/indigo-pink.css",
@@ -343,6 +346,15 @@
         "hash": "sha512-1ePN6OhVtPXYfIh6oSJwiOdUk+T4puzH6rhAtHfaiEI3gAoAlz170RBZzcDKc6ow5kQ8zo1DPWc61/FbOJFFew=="
       }
     },
+    "npm:@angular/pwa": {
+      "type": "npm",
+      "name": "npm:@angular/pwa",
+      "data": {
+        "version": "17.0.9",
+        "packageName": "@angular/pwa",
+        "hash": "sha512-4K/IgSnjM6I8ky6zsKWyYpHJbrRp23A+nO+zspcIURcRKqK9Pac5PakiMoJObVQ8TNjchaQWYxUDxGJorSQHGg=="
+      }
+    },
     "npm:@angular/router": {
       "type": "npm",
       "name": "npm:@angular/router",
@@ -350,6 +362,15 @@
         "version": "17.0.8",
         "packageName": "@angular/router",
         "hash": "sha512-ptphcRe1RG/mIS60R7ZPilkkrxautqB0sOhds3h5VP3g628G1a2HWzvnmvjEfpJWDMFivV32VJMMBtTLqGr+0Q=="
+      }
+    },
+    "npm:@angular/service-worker": {
+      "type": "npm",
+      "name": "npm:@angular/service-worker",
+      "data": {
+        "version": "17.0.8",
+        "packageName": "@angular/service-worker",
+        "hash": "sha512-oiaPTzZBWUsTrQtUH46pHGflF3asEQDHTGnqBGtRJjpVMek0c3P/7U/XTf5D06LmVxXODo4mplQXJmeWeFyhpw=="
       }
     },
     "npm:@angular/ssr": {
@@ -11765,6 +11786,11 @@
       },
       {
         "source": "tic-tac-toe-pwa-angular",
+        "target": "npm:@angular/pwa",
+        "type": "static"
+      },
+      {
+        "source": "tic-tac-toe-pwa-angular",
         "target": "npm:@angular/router",
         "type": "static"
       },
@@ -11887,6 +11913,11 @@
         "source": "tic-tac-toe-pwa-angular",
         "target": "npm:typescript",
         "type": "static"
+      },
+      {
+        "source": "tic-tac-toe-pwa-angular",
+        "target": "npm:@angular/service-worker",
+        "type": "static"
       }
     ],
     "npm:@ampproject/remapping": [
@@ -11922,6 +11953,11 @@
       {
         "source": "npm:@angular-devkit/build-angular",
         "target": "npm:@angular/platform-server",
+        "type": "static"
+      },
+      {
+        "source": "npm:@angular-devkit/build-angular",
+        "target": "npm:@angular/service-worker",
         "type": "static"
       },
       {
@@ -12970,6 +13006,28 @@
         "type": "static"
       }
     ],
+    "npm:@angular/pwa": [
+      {
+        "source": "npm:@angular/pwa",
+        "target": "npm:@angular/cli",
+        "type": "static"
+      },
+      {
+        "source": "npm:@angular/pwa",
+        "target": "npm:@angular-devkit/schematics",
+        "type": "static"
+      },
+      {
+        "source": "npm:@angular/pwa",
+        "target": "npm:@schematics/angular",
+        "type": "static"
+      },
+      {
+        "source": "npm:@angular/pwa",
+        "target": "npm:parse5-html-rewriting-stream",
+        "type": "static"
+      }
+    ],
     "npm:@angular/router": [
       {
         "source": "npm:@angular/router",
@@ -12993,6 +13051,23 @@
       },
       {
         "source": "npm:@angular/router",
+        "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@angular/service-worker": [
+      {
+        "source": "npm:@angular/service-worker",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@angular/service-worker",
+        "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@angular/service-worker",
         "target": "npm:tslib",
         "type": "static"
       }
