@@ -43,7 +43,9 @@
               "assets": [
                 "src/favicon.ico",
                 "src/assets",
-                "src/manifest.webmanifest"
+                "src/manifest.webmanifest",
+                "src/robots.txt",
+                "src/sitemap.xml"
               ],
               "styles": [
                 "@angular/material/prebuilt-themes/indigo-pink.css",
@@ -105,7 +107,9 @@
               "assets": [
                 "src/favicon.ico",
                 "src/assets",
-                "src/manifest.webmanifest"
+                "src/manifest.webmanifest",
+                "src/robots.txt",
+                "src/sitemap.xml"
               ],
               "styles": [
                 "@angular/material/prebuilt-themes/indigo-pink.css",
@@ -11796,6 +11800,11 @@
       },
       {
         "source": "tic-tac-toe-pwa-angular",
+        "target": "npm:@angular/service-worker",
+        "type": "static"
+      },
+      {
+        "source": "tic-tac-toe-pwa-angular",
         "target": "npm:@angular/ssr",
         "type": "static"
       },
@@ -11912,11 +11921,6 @@
       {
         "source": "tic-tac-toe-pwa-angular",
         "target": "npm:typescript",
-        "type": "static"
-      },
-      {
-        "source": "tic-tac-toe-pwa-angular",
-        "target": "npm:@angular/service-worker",
         "type": "static"
       }
     ],
