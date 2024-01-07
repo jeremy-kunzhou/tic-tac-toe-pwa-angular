@@ -3,10 +3,12 @@
   "nxVersion": "17.2.8",
   "deps": {
     "@angular/animations": "^17.0.0",
+    "@angular/cdk": "^17.0.4",
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/forms": "^17.0.0",
+    "@angular/material": "^17.0.4",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/platform-server": "^17.0.0",
@@ -47,46 +49,11 @@
         },
         {
           "file": ".gitignore",
-          "hash": "13044518069027839699"
-        },
-        {
-          "file": ".vscode/extensions.json",
-          "hash": "12343942279124280405"
-        },
-        {
-          "file": ".vscode/launch.json",
-          "hash": "17038929134016848735"
-        },
-        {
-          "file": ".vscode/tasks.json",
-          "hash": "5336636969995539451"
+          "hash": "13523819834076873628"
         },
         {
           "file": "README.md",
           "hash": "17887879302670483844"
-        },
-        {
-          "file": "arc/app/board/board.component.css",
-          "hash": "4055606894390288348"
-        },
-        {
-          "file": "arc/app/board/board.component.html",
-          "hash": "10039313236318047764"
-        },
-        {
-          "file": "arc/app/board/board.component.spec.ts",
-          "hash": "4411926531767789339",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "arc/app/board/board.component.ts",
-          "hash": "14508986720716624486",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
         },
         {
           "file": "nx.json",
@@ -94,17 +61,19 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "10051333801087909298"
+          "hash": "17268829201881609643"
         },
         {
           "file": "package.json",
-          "hash": "10405244034763248383",
+          "hash": "17483020484949734948",
           "deps": [
             "npm:@angular/animations",
+            "npm:@angular/cdk",
             "npm:@angular/common",
             "npm:@angular/compiler",
             "npm:@angular/core",
             "npm:@angular/forms",
+            "npm:@angular/material",
             "npm:@angular/platform-browser",
             "npm:@angular/platform-browser-dynamic",
             "npm:@angular/platform-server",
@@ -137,7 +106,7 @@
         },
         {
           "file": "project.json",
-          "hash": "6838108191226876965"
+          "hash": "12660042985598802931"
         },
         {
           "file": "server.ts",
@@ -152,7 +121,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "609583385738121838"
+          "hash": "757629468825559037"
         },
         {
           "file": "src/app/app.component.scss",
@@ -167,11 +136,12 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "15289456491394969864",
+          "hash": "14420443168078275482",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
-            "npm:@angular/router"
+            "npm:@angular/router",
+            "npm:@angular/material"
           ]
         },
         {
@@ -184,7 +154,7 @@
         },
         {
           "file": "src/app/app.config.ts",
-          "hash": "11821239874568871925",
+          "hash": "9914684919960579397",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -192,10 +162,42 @@
           ]
         },
         {
+          "file": "src/app/app.module.ts",
+          "hash": "7190765365591218957",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
           "file": "src/app/app.routes.ts",
           "hash": "12397496131277534773",
           "deps": [
             "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "src/app/board/board.component.css",
+          "hash": "5792173599058124069"
+        },
+        {
+          "file": "src/app/board/board.component.html",
+          "hash": "10212012880399589039"
+        },
+        {
+          "file": "src/app/board/board.component.spec.ts",
+          "hash": "4411926531767789339",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/board/board.component.ts",
+          "hash": "3093556541970083300",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
           ]
         },
         {
@@ -207,7 +209,7 @@
         },
         {
           "file": "src/app/square/square.component.ts",
-          "hash": "13059989935910074111",
+          "hash": "1984331584239124317",
           "deps": [
             "npm:@angular/core"
           ]
@@ -222,7 +224,7 @@
         },
         {
           "file": "src/index.html",
-          "hash": "11396008135488774611"
+          "hash": "17933820048215297531"
         },
         {
           "file": "src/main.server.ts",
@@ -240,7 +242,7 @@
         },
         {
           "file": "src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "9525514396149276363"
         },
         {
           "file": "tsconfig.app.json",

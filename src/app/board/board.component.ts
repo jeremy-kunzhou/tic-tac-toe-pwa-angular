@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SquareComponent } from '../square/square.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-board',
   standalone: true,
-  imports: [CommonModule, SquareComponent],
+  imports: [CommonModule, SquareComponent, MatButtonModule],
   templateUrl: './board.component.html',
   styleUrl: './board.component.css'
 })
